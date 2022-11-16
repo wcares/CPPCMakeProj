@@ -6,6 +6,8 @@ set(CMAKE_CXX_STANDARD            17)
 set(CMAKE_CXX_STANDARD_REQUIRED   ON)
 set(CMAKE_CXX_EXTENSIONS          OFF)
 
+option(ENABLE_TESTING "Whether to enable the unit testing build" ON)
+
 set(LIBRARY_NAME Library)
 set(EXECUTABLE_NAME Executable)
 
